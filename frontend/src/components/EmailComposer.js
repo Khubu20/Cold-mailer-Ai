@@ -7,7 +7,7 @@ import './css/Loading.css';
 
 // For production
 const API_BASE = process.env.NODE_ENV === 'production' 
-  ? 'https://coldmailer-wy4n.onrender.com/api' 
+  ? 'https://cold-mailer-ai.onrender.com/api' 
   : 'http://localhost:5000/api';
 
 const EmailComposer = ({ 
